@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SongName</key>
+	<array>
+		<string>Amazing Grace</string>
+		<string>Baby Beluga</string>
+        <string>Bad to the Bone</string>
+		<string>He&apos;s got the World</string>
+		<string>He&apos;s the DJ</string>
+		<string>I&apos;ll Fly Away</string>
+		<string>Knee Deep</string>
+		<string>On the Road Again</string>
+        <string>Over the Rainbow</string>
+		<string>Streets of Boston</string>
+		<string>This Land is Yours</string>
+		<string>Toes</string>
+		<string>You&apos;ve got a Friend</string>
+		<string>You are my Sunshine</string>
+	</array>
+	<key>Thumbnail</key>
+	<array>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+		<string>dkbluerowicon1.png</string>
+	</array>
+	<key>Difficulty</key>
+	<array>
+		<string>Beginner</string>
+		<string>Intermediate</string>
+        <string>Beginner</string>
+		<string>Beginner</string>
+		<string>Beginner</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+		<string>Intermediate</string>
+		<string>Advanced</string>
+		<string>Intermediate</string>
+		<string>Beginner</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+	</array>
+	<key>VideoName</key>
+	<array>
+		<string>wlgV6Z7Mj1g</string>
+		<string>OQYg8LKEPjA</string>
+        <string>exusLEScGek</string>
+		<string>ES3x0z0TbY4</string>
+		<string>Sij0akhZozk</string>
+		<string>smEA-aPui1A</string>
+		<string>gkxOo28x29U</string>
+        <string>aRYzgTLXRXU</string>
+		<string>V1bFr2SWP1I</string>
+		<string>3VMSGrY-IlU</string>
+		<string>XaI5IRuS2aE</string>
+		<string>gYLiLVyDfhY</string>
+		<string>XHFy3YWpRx8</string>
+		<string>mFK-mFlZ2uw</string>
+	</array>
+	<key>tabName</key>
+	<array>
+		<string>DUDUDUDU</string>
+		<string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>D~DU~UDU</string>
+        <string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>D~DU~UDU</string>
+        <string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>DUDUDUDU</string>
+        <string>D~DU~UDU</string>
+	</array>
+    <key>lyric</key>
+    <array>
+		<string>Lyric_Amazing_Grace.png</string>
+		<string>Lyric_Baby_Beluga.png</string>
+        <string>Lyric_Bad_Bone.png</string>
+		<string>Lyric_Whole_World.png</string>
+		<string>Lyric_DJ_Rapper.png</string>
+		<string>Lyric_Fly_Away.png</string>
+		<string>Lyric_Knee_Deep.png</string>
+		<string>Lyric_Road_Again.png</string>
+		<string>Lyric_Rainbow.png</string>
+		<string>Lyric_MTA.png</string>
+		<string>Lyric_This_Land.png</string>
+		<string>Lyric_Toes.png</string>
+		<string>Lyric_You_Gotta_Friend.png</string>
+		<string>Lyric_You_Sunshine.png</string>
+    </array>
+</dict>
+</plist>

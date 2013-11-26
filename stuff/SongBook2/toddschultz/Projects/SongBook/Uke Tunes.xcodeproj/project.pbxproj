@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163149F517B2E24B009EC3E6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163149F417B2E24B009EC3E6 /* AboutViewController.m */; };
+		163149F817B2E40D009EC3E6 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 163149F617B2E40D009EC3E6 /* about.html */; };
+		163149FF17B2E8EC009EC3E6 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 163149FE17B2E8EC009EC3E6 /* about.jpg */; };
+		16314A0217B304C7009EC3E6 /* icon large.png in Resources */ = {isa = PBXBuildFile; fileRef = 16314A0017B304C7009EC3E6 /* icon large.png */; };
+		16314A0317B304C7009EC3E6 /* iconf small.png in Resources */ = {isa = PBXBuildFile; fileRef = 16314A0117B304C7009EC3E6 /* iconf small.png */; };
+		16314A0517B304D7009EC3E6 /* iconf small.png in Resources */ = {isa = PBXBuildFile; fileRef = 16314A0417B304D7009EC3E6 /* iconf small.png */; };
+		16314A0717B304DD009EC3E6 /* icon large.png in Resources */ = {isa = PBXBuildFile; fileRef = 16314A0617B304DD009EC3E6 /* icon large.png */; };
+		16314A1517B3FDA0009EC3E6 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16314A1417B3FDA0009EC3E6 /* SimpleTableCell.xib */; };
+		16314A1817B3FF43009EC3E6 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16314A1717B3FF43009EC3E6 /* SimpleTableCell.m */; };
+		1635D64717B2975C001BDF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64617B2975C001BDF4B /* UIKit.framework */; };
+		1635D64917B2975C001BDF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64817B2975C001BDF4B /* Foundation.framework */; };
+		1635D64B17B2975C001BDF4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64A17B2975C001BDF4B /* CoreGraphics.framework */; };
+		1635D65117B2975C001BDF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1635D64F17B2975C001BDF4B /* InfoPlist.strings */; };
+		1635D65317B2975C001BDF4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D65217B2975C001BDF4B /* main.m */; };
+		1635D65717B2975C001BDF4B /* SongBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D65617B2975C001BDF4B /* SongBookAppDelegate.m */; };
+		1635D66017B2975C001BDF4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1635D65E17B2975C001BDF4B /* MainStoryboard.storyboard */; };
+		1635D66317B2975C001BDF4B /* SongBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D66217B2975C001BDF4B /* SongBookViewController.m */; };
+		1635D66B17B2975C001BDF4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D66A17B2975C001BDF4B /* SenTestingKit.framework */; };
+		1635D66C17B2975C001BDF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64617B2975C001BDF4B /* UIKit.framework */; };
+		1635D66D17B2975C001BDF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64817B2975C001BDF4B /* Foundation.framework */; };
+		1635D67517B2975C001BDF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1635D67317B2975C001BDF4B /* InfoPlist.strings */; };
+		1635D67817B2975C001BDF4B /* SongBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D67717B2975C001BDF4B /* SongBookTests.m */; };
+		1635D68317B29DC3001BDF4B /* SongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D68217B29DC3001BDF4B /* SongDetailViewController.m */; };
+		16C42CD217B82D5000CA4E7B /* Default@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CD117B82D5000CA4E7B /* Default@x2.png */; };
+		16C42CD417B82D7900CA4E7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CD317B82D7900CA4E7B /* Default@2x.png */; };
+		16C42CD617B82D9B00CA4E7B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CD517B82D9B00CA4E7B /* Default.png */; };
+		16C42CD917B82F8B00CA4E7B /* rowiconblue1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CD717B82F8B00CA4E7B /* rowiconblue1.jpg */; };
+		16C42CDA17B82F8B00CA4E7B /* rowiconblue2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CD817B82F8B00CA4E7B /* rowiconblue2.jpg */; };
+		16C42CDC17B832B200CA4E7B /* ukulele banner.png.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CDB17B832B200CA4E7B /* ukulele banner.png.jpg */; };
+		16C42CDF17B84C4D00CA4E7B /* SongBook in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CDD17B84C4D00CA4E7B /* SongBook */; };
+		16C42CE017B84C4D00CA4E7B /* Default@2xPink.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CDE17B84C4D00CA4E7B /* Default@2xPink.png */; };
+		16C42CE217B84CAF00CA4E7B /* SongBook in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CE117B84CAF00CA4E7B /* SongBook */; };
+		16C42CE517B8522700CA4E7B /* rowiconblue1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CE317B8522700CA4E7B /* rowiconblue1.jpg */; };
+		16C42CE617B8522700CA4E7B /* rowiconblue2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C42CE417B8522700CA4E7B /* rowiconblue2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1635D66E17B2975C001BDF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1635D63B17B2975C001BDF4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1635D64217B2975C001BDF4B;
+			remoteInfo = SongBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163149F317B2E24B009EC3E6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		163149F417B2E24B009EC3E6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		163149F617B2E40D009EC3E6 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		163149FE17B2E8EC009EC3E6 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about.jpg; sourceTree = "<group>"; };
+		16314A0017B304C7009EC3E6 /* icon large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon large.png"; sourceTree = "<group>"; };
+		16314A0117B304C7009EC3E6 /* iconf small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconf small.png"; sourceTree = "<group>"; };
+		16314A0417B304D7009EC3E6 /* iconf small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconf small.png"; sourceTree = "<group>"; };
+		16314A0617B304DD009EC3E6 /* icon large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon large.png"; sourceTree = "<group>"; };
+		16314A1417B3FDA0009EC3E6 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		16314A1617B3FF43009EC3E6 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		16314A1717B3FF43009EC3E6 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		16314A2517B5B2C1009EC3E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1635D64317B2975C001BDF4B /* Uke Tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uke Tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1635D64617B2975C001BDF4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1635D64817B2975C001BDF4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1635D64A17B2975C001BDF4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1635D64E17B2975C001BDF4B /* Uke Tunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Uke Tunes-Info.plist"; sourceTree = "<group>"; };
+		1635D65017B2975C001BDF4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1635D65217B2975C001BDF4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1635D65417B2975C001BDF4B /* Uke Tunes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Uke Tunes-Prefix.pch"; sourceTree = "<group>"; };
+		1635D65517B2975C001BDF4B /* SongBookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongBookAppDelegate.h; sourceTree = "<group>"; };
+		1635D65617B2975C001BDF4B /* SongBookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongBookAppDelegate.m; sourceTree = "<group>"; };
+		1635D65817B2975C001BDF4B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1635D65A17B2975C001BDF4B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1635D65C17B2975C001BDF4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1635D65F17B2975C001BDF4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1635D66117B2975C001BDF4B /* SongBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongBookViewController.h; sourceTree = "<group>"; };
+		1635D66217B2975C001BDF4B /* SongBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongBookViewController.m; sourceTree = "<group>"; };
+		1635D66917B2975C001BDF4B /* Uke TunesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uke TunesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1635D66A17B2975C001BDF4B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1635D67217B2975C001BDF4B /* Uke TunesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Uke TunesTests-Info.plist"; sourceTree = "<group>"; };
+		1635D67417B2975C001BDF4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1635D67617B2975C001BDF4B /* SongBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongBookTests.h; sourceTree = "<group>"; };
+		1635D67717B2975C001BDF4B /* SongBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongBookTests.m; sourceTree = "<group>"; };
+		1635D68117B29DC3001BDF4B /* SongDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailViewController.h; sourceTree = "<group>"; };
+		1635D68217B29DC3001BDF4B /* SongDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailViewController.m; sourceTree = "<group>"; };
+		16C42CD117B82D5000CA4E7B /* Default@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@x2.png"; sourceTree = "<group>"; };
+		16C42CD317B82D7900CA4E7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		16C42CD517B82D9B00CA4E7B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		16C42CD717B82F8B00CA4E7B /* rowiconblue1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rowiconblue1.jpg; sourceTree = "<group>"; };
+		16C42CD817B82F8B00CA4E7B /* rowiconblue2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rowiconblue2.jpg; sourceTree = "<group>"; };
+		16C42CDB17B832B200CA4E7B /* ukulele banner.png.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ukulele banner.png.jpg"; sourceTree = "<group>"; };
+		16C42CDD17B84C4D00CA4E7B /* SongBook */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SongBook; path = ../../../../../SongBook/SongBook; sourceTree = "<group>"; };
+		16C42CDE17B84C4D00CA4E7B /* Default@2xPink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2xPink.png"; sourceTree = "<group>"; };
+		16C42CE117B84CAF00CA4E7B /* SongBook */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = SongBook; path = ../../../../../SongBook/SongBook; sourceTree = "<group>"; };
+		16C42CE317B8522700CA4E7B /* rowiconblue1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rowiconblue1.jpg; sourceTree = "<group>"; };
+		16C42CE417B8522700CA4E7B /* rowiconblue2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rowiconblue2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1635D64017B2975C001BDF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635D64717B2975C001BDF4B /* UIKit.framework in Frameworks */,
+				1635D64917B2975C001BDF4B /* Foundation.framework in Frameworks */,
+				1635D64B17B2975C001BDF4B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1635D66517B2975C001BDF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635D66B17B2975C001BDF4B /* SenTestingKit.framework in Frameworks */,
+				1635D66C17B2975C001BDF4B /* UIKit.framework in Frameworks */,
+				1635D66D17B2975C001BDF4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1635D63A17B2975C001BDF4B = {
+			isa = PBXGroup;
+			children = (
+				16C42CD517B82D9B00CA4E7B /* Default.png */,
+				16C42CD317B82D7900CA4E7B /* Default@2x.png */,
+				16314A2517B5B2C1009EC3E6 /* Default-568h@2x.png */,
+				16314A0617B304DD009EC3E6 /* icon large.png */,
+				16314A0417B304D7009EC3E6 /* iconf small.png */,
+				1635D64C17B2975C001BDF4B /* SongBook */,
+				1635D67017B2975C001BDF4B /* SongBookTests */,
+				1635D64517B2975C001BDF4B /* Frameworks */,
+				1635D64417B2975C001BDF4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1635D64417B2975C001BDF4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1635D64317B2975C001BDF4B /* Uke Tunes.app */,
+				1635D66917B2975C001BDF4B /* Uke TunesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1635D64517B2975C001BDF4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1635D64617B2975C001BDF4B /* UIKit.framework */,
+				1635D64817B2975C001BDF4B /* Foundation.framework */,
+				1635D64A17B2975C001BDF4B /* CoreGraphics.framework */,
+				1635D66A17B2975C001BDF4B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1635D64C17B2975C001BDF4B /* SongBook */ = {
+			isa = PBXGroup;
+			children = (
+				16C42CE117B84CAF00CA4E7B /* SongBook */,
+				1635D65517B2975C001BDF4B /* SongBookAppDelegate.h */,
+				1635D65617B2975C001BDF4B /* SongBookAppDelegate.m */,
+				1635D65E17B2975C001BDF4B /* MainStoryboard.storyboard */,
+				1635D66117B2975C001BDF4B /* SongBookViewController.h */,
+				1635D66217B2975C001BDF4B /* SongBookViewController.m */,
+				1635D64D17B2975C001BDF4B /* Supporting Files */,
+				1635D68117B29DC3001BDF4B /* SongDetailViewController.h */,
+				1635D68217B29DC3001BDF4B /* SongDetailViewController.m */,
+				163149F317B2E24B009EC3E6 /* AboutViewController.h */,
+				163149F417B2E24B009EC3E6 /* AboutViewController.m */,
+				16314A1417B3FDA0009EC3E6 /* SimpleTableCell.xib */,
+				16314A1617B3FF43009EC3E6 /* SimpleTableCell.h */,
+				16314A1717B3FF43009EC3E6 /* SimpleTableCell.m */,
+			);
+			path = SongBook;
+			sourceTree = "<group>";
+		};
+		1635D64D17B2975C001BDF4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C42CE317B8522700CA4E7B /* rowiconblue1.jpg */,
+				16C42CE417B8522700CA4E7B /* rowiconblue2.jpg */,
+				163149FE17B2E8EC009EC3E6 /* about.jpg */,
+				163149F617B2E40D009EC3E6 /* about.html */,
+				1635D64E17B2975C001BDF4B /* Uke Tunes-Info.plist */,
+				16C42CDD17B84C4D00CA4E7B /* SongBook */,
+				16C42CD117B82D5000CA4E7B /* Default@x2.png */,
+				16314A0017B304C7009EC3E6 /* icon large.png */,
+				16314A0117B304C7009EC3E6 /* iconf small.png */,
+				16C42CDB17B832B200CA4E7B /* ukulele banner.png.jpg */,
+				16C42CD717B82F8B00CA4E7B /* rowiconblue1.jpg */,
+				16C42CD817B82F8B00CA4E7B /* rowiconblue2.jpg */,
+				16C42CDE17B84C4D00CA4E7B /* Default@2xPink.png */,
+				1635D64F17B2975C001BDF4B /* InfoPlist.strings */,
+				1635D65217B2975C001BDF4B /* main.m */,
+				1635D65417B2975C001BDF4B /* Uke Tunes-Prefix.pch */,
+				1635D65817B2975C001BDF4B /* Default.png */,
+				1635D65A17B2975C001BDF4B /* Default@2x.png */,
+				1635D65C17B2975C001BDF4B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1635D67017B2975C001BDF4B /* SongBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				1635D67617B2975C001BDF4B /* SongBookTests.h */,
+				1635D67717B2975C001BDF4B /* SongBookTests.m */,
+				1635D67117B2975C001BDF4B /* Supporting Files */,
+			);
+			path = SongBookTests;
+			sourceTree = "<group>";
+		};
+		1635D67117B2975C001BDF4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1635D67217B2975C001BDF4B /* Uke TunesTests-Info.plist */,
+				1635D67317B2975C001BDF4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1635D64217B2975C001BDF4B /* Uke Tunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1635D67B17B2975C001BDF4B /* Build configuration list for PBXNativeTarget "Uke Tunes" */;
+			buildPhases = (
+				1635D63F17B2975C001BDF4B /* Sources */,
+				1635D64017B2975C001BDF4B /* Frameworks */,
+				1635D64117B2975C001BDF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uke Tunes";
+			productName = SongBook;
+			productReference = 1635D64317B2975C001BDF4B /* Uke Tunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1635D66817B2975C001BDF4B /* Uke TunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1635D67E17B2975C001BDF4B /* Build configuration list for PBXNativeTarget "Uke TunesTests" */;
+			buildPhases = (
+				1635D66417B2975C001BDF4B /* Sources */,
+				1635D66517B2975C001BDF4B /* Frameworks */,
+				1635D66617B2975C001BDF4B /* Resources */,
+				1635D66717B2975C001BDF4B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1635D66F17B2975C001BDF4B /* PBXTargetDependency */,
+			);
+			name = "Uke TunesTests";
+			productName = SongBookTests;
+			productReference = 1635D66917B2975C001BDF4B /* Uke TunesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1635D63B17B2975C001BDF4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SongBook;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = QAMob.info;
+			};
+			buildConfigurationList = 1635D63E17B2975C001BDF4B /* Build configuration list for PBXProject "Uke Tunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1635D63A17B2975C001BDF4B;
+			productRefGroup = 1635D64417B2975C001BDF4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1635D64217B2975C001BDF4B /* Uke Tunes */,
+				1635D66817B2975C001BDF4B /* Uke TunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1635D64117B2975C001BDF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635D65117B2975C001BDF4B /* InfoPlist.strings in Resources */,
+				1635D66017B2975C001BDF4B /* MainStoryboard.storyboard in Resources */,
+				163149F817B2E40D009EC3E6 /* about.html in Resources */,
+				163149FF17B2E8EC009EC3E6 /* about.jpg in Resources */,
+				16314A0217B304C7009EC3E6 /* icon large.png in Resources */,
+				16314A0317B304C7009EC3E6 /* iconf small.png in Resources */,
+				16314A0517B304D7009EC3E6 /* iconf small.png in Resources */,
+				16314A0717B304DD009EC3E6 /* icon large.png in Resources */,
+				16314A1517B3FDA0009EC3E6 /* SimpleTableCell.xib in Resources */,
+				16C42CD217B82D5000CA4E7B /* Default@x2.png in Resources */,
+				16C42CD417B82D7900CA4E7B /* Default@2x.png in Resources */,
+				16C42CD617B82D9B00CA4E7B /* Default.png in Resources */,
+				16C42CD917B82F8B00CA4E7B /* rowiconblue1.jpg in Resources */,
+				16C42CDA17B82F8B00CA4E7B /* rowiconblue2.jpg in Resources */,
+				16C42CDC17B832B200CA4E7B /* ukulele banner.png.jpg in Resources */,
+				16C42CDF17B84C4D00CA4E7B /* SongBook in Resources */,
+				16C42CE017B84C4D00CA4E7B /* Default@2xPink.png in Resources */,
+				16C42CE217B84CAF00CA4E7B /* SongBook in Resources */,
+				16C42CE517B8522700CA4E7B /* rowiconblue1.jpg in Resources */,
+				16C42CE617B8522700CA4E7B /* rowiconblue2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1635D66617B2975C001BDF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635D67517B2975C001BDF4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1635D66717B2975C001BDF4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1635D63F17B2975C001BDF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635D65317B2975C001BDF4B /* main.m in Sources */,
+				1635D65717B2975C001BDF4B /* SongBookAppDelegate.m in Sources */,
+				1635D66317B2975C001BDF4B /* SongBookViewController.m in Sources */,
+				1635D68317B29DC3001BDF4B /* SongDetailViewController.m in Sources */,
+				163149F517B2E24B009EC3E6 /* AboutViewController.m in Sources */,
+				16314A1817B3FF43009EC3E6 /* SimpleTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1635D66417B2975C001BDF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635D67817B2975C001BDF4B /* SongBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1635D66F17B2975C001BDF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1635D64217B2975C001BDF4B /* Uke Tunes */;
+			targetProxy = 1635D66E17B2975C001BDF4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1635D64F17B2975C001BDF4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635D65017B2975C001BDF4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1635D65E17B2975C001BDF4B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635D65F17B2975C001BDF4B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1635D67317B2975C001BDF4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635D67417B2975C001BDF4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1635D67917B2975C001BDF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1635D67A17B2975C001BDF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1635D67C17B2975C001BDF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongBook/Uke Tunes-Prefix.pch";
+				INFOPLIST_FILE = "SongBook/Uke Tunes-Info.plist";
+				PRODUCT_NAME = "Uke Tunes";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1635D67D17B2975C001BDF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongBook/Uke Tunes-Prefix.pch";
+				INFOPLIST_FILE = "SongBook/Uke Tunes-Info.plist";
+				PRODUCT_NAME = "Uke Tunes";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1635D67F17B2975C001BDF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SongBook.app/SongBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongBook/SongBook-Prefix.pch";
+				INFOPLIST_FILE = "SongBookTests/Uke TunesTests-Info.plist";
+				PRODUCT_NAME = "Uke TunesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1635D68017B2975C001BDF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SongBook.app/SongBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongBook/SongBook-Prefix.pch";
+				INFOPLIST_FILE = "SongBookTests/Uke TunesTests-Info.plist";
+				PRODUCT_NAME = "Uke TunesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1635D63E17B2975C001BDF4B /* Build configuration list for PBXProject "Uke Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1635D67917B2975C001BDF4B /* Debug */,
+				1635D67A17B2975C001BDF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1635D67B17B2975C001BDF4B /* Build configuration list for PBXNativeTarget "Uke Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1635D67C17B2975C001BDF4B /* Debug */,
+				1635D67D17B2975C001BDF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1635D67E17B2975C001BDF4B /* Build configuration list for PBXNativeTarget "Uke TunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1635D67F17B2975C001BDF4B /* Debug */,
+				1635D68017B2975C001BDF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1635D63B17B2975C001BDF4B /* Project object */;
+}

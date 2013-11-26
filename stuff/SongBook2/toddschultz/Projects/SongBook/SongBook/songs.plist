@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SongName</key>
+	<array>
+		<string>Amazing Grace</string>
+		<string>Baby Beluga</string>
+		<string>He&apos;s got the WW</string>
+		<string>He&apos;s the DJ</string>
+		<string>I&apos;ll Fly Away</string>
+		<string>Knee Deep</string>
+		<string>Over the Rainbow</string>
+		<string>Streets of Boston</string>
+		<string>This Land is Your Land</string>
+		<string>Toes</string>
+		<string>You&apos;ve gotta Friend in Me</string>
+		<string>You are my Sunshine</string>
+	</array>
+	<key>Thumbnail</key>
+	<array>
+		<string>rowiconblue1.jpg</string>
+		<string>rowiconblue2.jpg</string>
+		<string>rowiconblue1.jpg</string>
+		<string>rowiconblue2.jpg</string>
+		<string>rowiconblue1.jpg</string>
+		<string>rowiconblue2.jpg</string>
+		<string>rowiconblue1.jpg</string>
+		<string>rowiconblue2.jpg</string>
+		<string>rowiconblue1.jpg</string>
+		<string>rowiconblue2.jpg</string>
+		<string>rowiconblue1.jpg</string>
+		<string>rowiconblue2.jpg</string>
+	</array>
+	<key>Difficulty</key>
+	<array>
+		<string>Beginner</string>
+		<string>Intermediate</string>
+		<string>Beginner</string>
+		<string>Beginner</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+		<string>Intermediate</string>
+		<string>Beginner</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+		<string>Advanced</string>
+	</array>
+	<key>VideoName</key>
+	<array>
+		<string>video1</string>
+		<string>video2</string>
+		<string>video3</string>
+		<string>video4</string>
+		<string>video5</string>
+		<string>video6</string>
+		<string>video7</string>
+		<string>video8</string>
+		<string>video9</string>
+		<string>video10</string>
+		<string>video11</string>
+		<string>video12</string>
+	</array>
+	<key>tabName</key>
+	<array>
+		<string>Tab1</string>
+		<string>Tab2</string>
+		<string>Tab3</string>
+		<string>Tab4</string>
+		<string>Tab5</string>
+		<string>Tab6</string>
+		<string>Tab7</string>
+		<string>Tab8</string>
+		<string>Tab9</string>
+		<string>Tab10</string>
+		<string>Tab11</string>
+		<string>Tab12</string>
+	</array>
+</dict>
+</plist>

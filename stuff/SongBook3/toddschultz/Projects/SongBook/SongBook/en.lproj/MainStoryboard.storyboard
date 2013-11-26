@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rHm-Jp-mdg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Song Book View Controller - Ukulele Songs-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="SongBookViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="yOm-Uk-iC4">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" id="AfU-iE-gyv">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="2" id="UP2-bk-1S5"/>
+                                    </connections>
+                                </searchBar>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SongCell" id="N0r-bq-FRI">
+                                        <rect key="frame" x="0.0" y="80" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="e1i-e4-2bx" kind="push" identifier="showSongDetail" id="5zy-yi-9xe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="imP-lr-f53"/>
+                                    <outlet property="delegate" destination="2" id="AWO-Wz-GdY"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yOm-Uk-iC4" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="HaI-cD-Qot"/>
+                            <constraint firstItem="yOm-Uk-iC4" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="LfQ-0k-IAC"/>
+                            <constraint firstItem="yOm-Uk-iC4" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="MQQ-vF-pfb"/>
+                            <constraint firstItem="yOm-Uk-iC4" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="TU3-s9-Fl3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ukulele Songs" id="jmD-cD-4Ru"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="f2D-TW-bwf" id="SGg-pl-xcu"/>
+                        <outlet property="tableView" destination="yOm-Uk-iC4" id="f5t-d9-D0F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="f2D-TW-bwf">
+                    <connections>
+                        <outlet property="delegate" destination="2" id="ne7-te-Bmz"/>
+                        <outlet property="searchBar" destination="AfU-iE-gyv" id="enQ-tZ-7gn"/>
+                        <outlet property="searchContentsController" destination="2" id="dJP-MU-MAd"/>
+                        <outlet property="searchResultsDataSource" destination="2" id="1vX-WI-Wuj"/>
+                        <outlet property="searchResultsDelegate" destination="2" id="52L-nh-w9N"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="920" y="320"/>
+        </scene>
+        <!--Song Detail View Controller-->
+        <scene sceneID="yD9-h7-zFj">
+            <objects>
+                <viewController id="e1i-e4-2bx" customClass="SongDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FLp-kE-3nb" userLabel="Label">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="UKE JAM GOES HERE!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGd-Nj-0QF">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="190" id="9c5-T0-pzh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wGd-Nj-0QF" firstAttribute="centerX" secondItem="FLp-kE-3nb" secondAttribute="centerX" type="default" id="l2N-E4-CZc"/>
+                            <constraint firstItem="wGd-Nj-0QF" firstAttribute="top" secondItem="FLp-kE-3nb" secondAttribute="top" constant="241" id="twj-1u-sZ6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wOQ-va-7h0"/>
+                    <connections>
+                        <outlet property="songLabel" destination="wGd-Nj-0QF" id="Tx8-oN-YAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIk-OT-jh4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="320"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RbD-E2-BX8">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="QeG-kh-maO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="G7u-3I-vDv"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ahz-Ob-mFH">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TIz-JE-2Rx" kind="relationship" relationship="rootViewController" id="z6p-oF-GYq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBa-E8-csf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="999"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="b7R-e2-Yrg">
+            <objects>
+                <viewController id="TIz-JE-2Rx" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="89b-Ph-Q5h">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IVx-FR-HIw">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IVx-FR-HIw" firstAttribute="leading" secondItem="89b-Ph-Q5h" secondAttribute="leading" type="default" id="NR5-HN-ZZw"/>
+                            <constraint firstItem="IVx-FR-HIw" firstAttribute="bottom" secondItem="89b-Ph-Q5h" secondAttribute="bottom" type="default" id="Pq6-1j-3iK"/>
+                            <constraint firstItem="IVx-FR-HIw" firstAttribute="top" secondItem="89b-Ph-Q5h" secondAttribute="top" type="default" id="ZWT-1G-KOG"/>
+                            <constraint firstItem="IVx-FR-HIw" firstAttribute="trailing" secondItem="89b-Ph-Q5h" secondAttribute="trailing" type="default" id="nR5-Ev-YC0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="p7U-op-zfM"/>
+                    <connections>
+                        <outlet property="webView" destination="IVx-FR-HIw" id="g0d-dv-xbA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="scR-fq-trv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920" y="999"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ro7-9a-gE2">
+            <objects>
+                <navigationController id="VYX-4P-NuA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="WbU-KE-Fzs"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C0X-EI-iK8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="bN5-KS-p1i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hEQ-tl-Nzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="320"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="9Yv-aT-JF0">
+            <objects>
+                <tabBarController id="rHm-Jp-mdg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ilj-0N-niX">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VYX-4P-NuA" kind="relationship" relationship="viewControllers" id="cjn-Qy-TIf"/>
+                        <segue destination="QeG-kh-maO" kind="relationship" relationship="viewControllers" id="maa-SW-SFW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tPc-6i-iUD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2" y="320"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,481 @@
+
+<string>Amazing Grace</string>
+C               F                 C             G7      
+Amazing grace, how sweet the sound that saved a wretch like me
+            C     F           C                 G7
+I once was lost, but now am found.  Was blind but now I see.
+
+
+<string>Baby Beluga</string>
+F
+Baby Beluga in the deep blue sea,
+                       C
+Swim so wild and you swim so free.
+C7
+Heaven above, and the sea below,
+                                F
+And a little white whale on the go.
+
+A#            F            G       
+Baby beluga, baby Beluga, is the water warm?
+                        C   C7   C
+Is your mama home with you, so happy.
+
+<string>He&apos;s got the World</string>
+     C
+He's got the whole world in His hands
+              G7
+He's got the whole world in His hands
+              C
+He's got the whole world in His hands
+              G7                  C
+He's got the whole world in His hands
+
+
+<string>He&apos;s the DJ</string>
+A                            C
+My rhymes have been written, not to be bitten
+A                C
+But as it seems, some suckers keep forgettin'
+A                           C
+The rules about rappin' but that's alright
+G7                                           C    
+'Cause in the next 5 minutes, I'ma have them all uptight
+
+Read more: DJ Jazzy Jeff & The Fresh Prince - He's The DJ, I'm The Rapper Lyrics | MetroLyrics
+
+<string>I&apos;ll Fly Away</string>
+C  
+Some bright morning when this life is over
+F          C      
+I'll fly away
+C       
+To that home on God's celestial shore,
+G              C
+I'll … fly away.
+
+C   
+I'll fly away oh glory
+F           C  
+I'll fly a way, (in the morning)
+C   
+When I die Hallelujah by and by
+C          G       
+I'll  … away
+
+<string>Knee Deep</string>
+CaddG
+ Gonna put the the world away for a minute 
+F
+ Pretend I don't live in it 
+C               G              C
+ Sunshine gonna wash my blues away 
+CaddG
+ Had sweet love but I lost it 
+F
+ She got too close so I fought her 
+         Am          G               F         G      C
+ Now I'm lost in the world trying to find me a better way 
+
+              CaddG
+ Wishing I was knee deep in the water somewhere 
+         F
+ Got the blue sky breeze and it don't seem fair 
+      C                         G                   C      
+ Only worry in the world is the tide gonna reach my chair 
+CaddG
+ Sunrise there's a fire in the sky 
+       F
+ Never been so happy, never felt so high 
+       Am                 G           F           G   C
+ And I think I might have found me my own kind of paradise
+
+
+
+
+On the Road Again
+
+E						        G#m
+On the road again, just can't get wait to get on the road again.
+			F#m
+I find love is makin' music with my friends.
+        A			 B		E
+And I can't wait to get on the road again.
+
+...
+
+    	A						        E
+On the road again, like a band of gypsies we go down the highway
+	     A							  E                  B
+We're the best of friends, insisting that the world keep turnin' our way, and our way.
+
+
+
+
+<string>Over the Rainbow</string>
+G         D
+Somewhere over the rainbow
+
+Em      D
+Way up high
+
+C        G
+And the dreams...
+
+D               Em   C
+Once in a lullaby
+
+G         D
+Somewhere over...
+
+Em          G
+Blue birds fly
+
+C        G
+And the dreams...
+
+D                     Em     C
+Dreams really do come true
+
+G
+Someday...
+
+D                                   Em     C
+Wake up where the clouds are far behind me
+
+G
+Where trouble...
+
+D                               Em            C
+High above the chimney tops is where you'll find me
+
+G         D                Em        G
+Somewhere over the rainbow bluebirds fly
+
+C       G                         D                  Em     G
+And the dreams that you dare to, oh why, oh why can't I?
+
+G                    D         Em        G
+Well I see trees of green and Red roses too,
+
+C               G         D       Em
+I'll watch then bloom for me and you
+
+C
+And I think...
+
+D                 Em    C
+What a wonderful world
+
+G                   D              Em          G
+Well I see skies of blue and I see clouds of white
+
+C                     G
+And the brightness of day
+
+D           Em
+I like the dark
+
+C
+And I think...
+
+D                Em    C
+What a wonderful world
+
+D                            Em
+The colors of the rainbow so pr...
+
+D                        Em
+Are also on the faces of pe...
+
+C                     G
+I see friends shaking h...
+
+         C           G
+Saying, "How do you do?"
+
+C              G        C         D
+They're really saying, I...I love you
+
+G             D          Em         G
+I hear babies cry and I watch them grow,
+
+C                  G
+They'll learn much more
+
+D           Em
+Than we'll know
+
+C
+And I think to myself
+
+D                 Em    C
+What a wonderful world
+
+G
+Someday I'll wish...
+
+D                   Em     C
+Wake up where ... behind me
+
+G
+Where trouble...
+
+D               Em           G
+High above ... where you'll find me
+
+G          D
+Somewhere over...
+
+Em      G
+Way up high
+
+C        G                         D                  Em   C    G
+And the dreams that you dare to, oh why, oh why can't I?
+
+<string>This Land is Yours</string>
+                F                    C
+This land is your land, this land is my land,
+          G7                    C
+From California to the New York Island,
+				 F                          C
+From the Redwood Forests to the Gulf Stream waters;
+G7                             C  
+This land was made for you and me.
+
+
+<string>Toes</string>
+
+A
+I got my toes in the water, 
+D
+ass in the sand
+A  
+not a worry in the world 
+       E  
+a cold beer in my hand
+D 	  	        E  
+life is good today
+ 	  	     A
+life is good today
+
+A
+well the plane touched town 
+      D
+just about 3 o'clock
+ 	 A 	  	             E
+and the city's still on my mind
+A 	  	      D
+bikinis & palm trees danced in my head
+      A 	  	    E 	    A
+i was still in the baggage line
+
+A 	  	  	     D
+concrete and cars are their own prison bars
+A 	  	  	      E
+like this life i'm livin in
+ 	 A
+but the plane brought me farther
+    D
+i'm surrounded by water
+A 	     E  	  	 A
+and i'm not going back again
+
+A 	  	  	    D
+   Adios and vaya con dios
+ 	  	 A
+Yea, i'm leavin GA
+ 	   E
+and if it weren't for tequila & pretty senoritas
+ 	  	        	 
+i'd have no reason to stay
+
+A 	  	  	   D
+  Adios and vaya con dios
+ 	  	 A
+Yea, i'm leavin GA
+      E
+gonna lay in the hot sun 
+  
+& roll a big fat one
+   	  	    A
+& grab my guitar & play
+
+<string>You&apos;ve got a Friend</string>
+
+C               G      C  C7
+You've got a friend in me 
+F                      C  C7
+You've got a friend in me 
+F          C       E        Am
+When the road looks rough ahead 
+             F         C               E        Am
+And you're miles and miles from your nice warm bed 
+F            C               E       Am
+You just remember what your old pal said 
+      D7            G          C
+Boy, you've got a friend in me 
+A        D7          G       C    Am   A   C   G    C
+Yeah, you've got a friend in me 
+
+...
+
+D7             G        C
+You've got a friend in me 
+F                             B                                    
+Some other folks might be a little bit smarter than I am 
+C           B        C
+Bigger and stronger too, Maybe
+B            C 
+But none of them 
+     D      B
+Will ever love you 
+    Em    A
+The way I do 
+      Dm     G
+It's me and you, boy
+
+C                G  C
+And as the years go by, 
+       F                   C
+Our friendship will never die 
+F                         C   E  Am
+You're gonna see it's our des-ti-ny 
+D7                G          C        A
+You've got a friend in me 
+D7              G      C        A
+You've got a friend in me 
+D              G       C      E    Am   A   C   G    C
+You've got a friend in me
+
+<string>You are my Sunshine</string>
+C                                                 Am
+The other night dear, as I lay sleeping
+              F             C 
+I dreamed I held you in my arms
+              F              C     
+But when I awoke dear, I was mistaken
+               G         C 
+And I hung my head and cried
+
+C                                                        Am
+You are my sunshine, my only sunshine
+              F                   C
+You make me happy when skies are gray
+              F                      C                        Am
+You'll never know dear, how much I love you
+                        G       C   
+Please don't take my sunshine away
+
+C
+I'll always love you and make you happy
+             F             C   
+If you could only say the same
+             F                  C
+But if you leave me, to love another
+                   G          C  
+Well you'll regret it all someday
+
+C                                      
+You are my sunshine, my only sunshine
+              F                   C
+You make me happy when skies are gray
+              F                      C 
+You'll never know dear, how much I love you
+                        G       C   
+Please don't take my sunshine away
+
+
+<string>Streets of Boston</string>
+G                                     C
+Now let me tell you of the story of a man named Charlie
+        G                      D7
+On a tragic and fateful day.
+          G                                   C
+He put ten cents in his pocket, kissed his wife and family,
+
+And went to [D7]ride on the M[G]TA.
+
+    {c:Chorus.}
+   G                               C
+Well did he ever return?  No he never returned,
+           G             D7  
+And his fate is still unlearned.
+          G                     C
+He may ride forever 'neath the streets of Boston,
+          G      D7       G
+He's the man who never returned.
+
+Charlie handed in his dime at the Kendell Square station,
+And he changed for Jamaica Plain.
+When he got there the conductor told him, "One more nickel."
+Charlie couldn't get off that train.
+
+     {c:Chorus.}
+
+Now all night long Charlie rides through the station
+Crying, "What will become of me?
+How can I afford to see my sister in Chelsea,
+Or my cousin in Roxbury?"
+
+     {c:Chorus.}
+
+Charlie's wife goes down to the Scolla Square station
+Every day at a quarter past two.
+And through the open window she hands Charlie a sandwich
+As the train comes rumbling through.
+
+     {c:Chorus.}
+
+Now you citizens of Boston, don't you think it's a scandal
+How the people have to pay and pay?
+Fight the fare increase, vote for Walter O'Brien,
+And get Charlie off the MTA.
+
+     {c:Chorus.}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On the Road Again
