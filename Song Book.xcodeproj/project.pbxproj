@@ -331,6 +331,11 @@
 				CLASSPREFIX = SongBook;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = QAMob.info;
+				TargetAttributes = {
+					1635D64217B2975C001BDF4B = {
+						DevelopmentTeam = C44NPH4HX7;
+					};
+				};
 			};
 			buildConfigurationList = 1635D63E17B2975C001BDF4B /* Build configuration list for PBXProject "Song Book" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -483,8 +488,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Andy Friedlander (5RRG47UGK3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andy Friedlander (5RRG47UGK3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -499,8 +504,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "AD14D5DE-55DD-4DAF-891B-37428197B687";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD14D5DE-55DD-4DAF-891B-37428197B687";
+				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D720D982-3D47-41BC-9115-1EBA3542034C";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -517,8 +522,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Andy Friedlander (5RRG47UGK3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andy Friedlander (5RRG47UGK3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -526,8 +531,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "AD14D5DE-55DD-4DAF-891B-37428197B687";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD14D5DE-55DD-4DAF-891B-37428197B687";
+				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D720D982-3D47-41BC-9115-1EBA3542034C";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -536,14 +541,14 @@
 		1635D67C17B2975C001BDF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SongBook/Song Book-Prefix.pch";
 				INFOPLIST_FILE = "SongBook/Song Book-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Song Book";
-				PROVISIONING_PROFILE = "690DAEEF-AB62-459C-AA5B-31BF458112E0";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "690DAEEF-AB62-459C-AA5B-31BF458112E0";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -554,14 +559,14 @@
 		1635D67D17B2975C001BDF4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SongBook/Song Book-Prefix.pch";
 				INFOPLIST_FILE = "SongBook/Song Book-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Song Book";
-				PROVISIONING_PROFILE = "2A885FC5-28A8-442E-8D43-ACF880B7C79F";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "690DAEEF-AB62-459C-AA5B-31BF458112E0";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
