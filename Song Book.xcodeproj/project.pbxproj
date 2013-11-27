@@ -541,14 +541,14 @@
 		1635D67C17B2975C001BDF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SongBook/Song Book-Prefix.pch";
 				INFOPLIST_FILE = "SongBook/Song Book-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Song Book";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "690DAEEF-AB62-459C-AA5B-31BF458112E0";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -559,14 +559,14 @@
 		1635D67D17B2975C001BDF4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SongBook/Song Book-Prefix.pch";
 				INFOPLIST_FILE = "SongBook/Song Book-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Song Book";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "690DAEEF-AB62-459C-AA5B-31BF458112E0";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
