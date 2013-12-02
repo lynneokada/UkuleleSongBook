@@ -577,7 +577,7 @@
 		1635D67F17B2975C001BDF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SongBook.app/SongBook";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Song Book.app/Song Book";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -594,7 +594,7 @@
 		1635D68017B2975C001BDF4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SongBook.app/SongBook";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Song Book.app/Song Book";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -603,6 +603,7 @@
 				GCC_PREFIX_HEADER = "SongBook/SongBook-Prefix.pch";
 				INFOPLIST_FILE = "SongBookTests/Song BookTests-Info.plist";
 				PRODUCT_NAME = "Song BookTests";
+				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
