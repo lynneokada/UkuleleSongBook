@@ -544,8 +544,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SongBook/Song Book-Prefix.pch";
-				INFOPLIST_FILE = "SongBook/Song Book-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SongBook/Song Book-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SongBook/Song Book-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Song Book";
 				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
@@ -562,8 +562,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Schultz (PUM7XA8EM5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SongBook/Song Book-Prefix.pch";
-				INFOPLIST_FILE = "SongBook/Song Book-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SongBook/Song Book-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SongBook/Song Book-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Song Book";
 				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
