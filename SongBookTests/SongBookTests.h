@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 QAMob.info. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface SongBookTests : SenTestCase
+@interface SongBookTests : XCTestCase
 
 @end

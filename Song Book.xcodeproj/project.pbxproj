@@ -49,7 +49,6 @@
 		1635D65717B2975C001BDF4B /* SongBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D65617B2975C001BDF4B /* SongBookAppDelegate.m */; };
 		1635D66017B2975C001BDF4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1635D65E17B2975C001BDF4B /* MainStoryboard.storyboard */; };
 		1635D66317B2975C001BDF4B /* SongBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D66217B2975C001BDF4B /* SongBookViewController.m */; };
-		1635D66B17B2975C001BDF4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D66A17B2975C001BDF4B /* SenTestingKit.framework */; };
 		1635D66C17B2975C001BDF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64617B2975C001BDF4B /* UIKit.framework */; };
 		1635D66D17B2975C001BDF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D64817B2975C001BDF4B /* Foundation.framework */; };
 		1635D67517B2975C001BDF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1635D67317B2975C001BDF4B /* InfoPlist.strings */; };
@@ -57,6 +56,8 @@
 		1635D68317B29DC3001BDF4B /* SongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D68217B29DC3001BDF4B /* SongDetailViewController.m */; };
 		16B3EB2E17C953850024C8C8 /* Lyric_Bad_Bone.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B3EB2D17C953850024C8C8 /* Lyric_Bad_Bone.png */; };
 		16BED04E17C2DB0D004E8CBF /* Lyric_Road_Again.png in Resources */ = {isa = PBXBuildFile; fileRef = 16BED04D17C2DB0D004E8CBF /* Lyric_Road_Again.png */; };
+		D2F0924B1A1E85E000F57061 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2F0924A1A1E85E000F57061 /* Default-568h@2x.png */; };
+		D2F0924D1A1E8CEB00F57061 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F0924C1A1E8CEB00F57061 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,7 +124,6 @@
 		1635D66117B2975C001BDF4B /* SongBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongBookViewController.h; sourceTree = "<group>"; };
 		1635D66217B2975C001BDF4B /* SongBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongBookViewController.m; sourceTree = "<group>"; };
 		1635D66917B2975C001BDF4B /* Song BookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Song BookTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1635D66A17B2975C001BDF4B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1635D67217B2975C001BDF4B /* Song BookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Song BookTests-Info.plist"; sourceTree = "<group>"; };
 		1635D67417B2975C001BDF4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1635D67617B2975C001BDF4B /* SongBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongBookTests.h; sourceTree = "<group>"; };
@@ -132,6 +132,8 @@
 		1635D68217B29DC3001BDF4B /* SongDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailViewController.m; sourceTree = "<group>"; };
 		16B3EB2D17C953850024C8C8 /* Lyric_Bad_Bone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lyric_Bad_Bone.png; sourceTree = "<group>"; };
 		16BED04D17C2DB0D004E8CBF /* Lyric_Road_Again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lyric_Road_Again.png; sourceTree = "<group>"; };
+		D2F0924A1A1E85E000F57061 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D2F0924C1A1E8CEB00F57061 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +152,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1635D66B17B2975C001BDF4B /* SenTestingKit.framework in Frameworks */,
 				1635D66C17B2975C001BDF4B /* UIKit.framework in Frameworks */,
 				1635D66D17B2975C001BDF4B /* Foundation.framework in Frameworks */,
 			);
@@ -171,6 +172,7 @@
 		1635D63A17B2975C001BDF4B = {
 			isa = PBXGroup;
 			children = (
+				D2F0924A1A1E85E000F57061 /* Default-568h@2x.png */,
 				1635D64C17B2975C001BDF4B /* SongBook */,
 				1635D67017B2975C001BDF4B /* SongBookTests */,
 				1635D64517B2975C001BDF4B /* Frameworks */,
@@ -194,7 +196,6 @@
 				1635D64617B2975C001BDF4B /* UIKit.framework */,
 				1635D64817B2975C001BDF4B /* Foundation.framework */,
 				1635D64A17B2975C001BDF4B /* CoreGraphics.framework */,
-				1635D66A17B2975C001BDF4B /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,10 +209,8 @@
 				16314A1B17B5AD04009EC3E6 /* songs.plist */,
 				1635D65517B2975C001BDF4B /* SongBookAppDelegate.h */,
 				1635D65617B2975C001BDF4B /* SongBookAppDelegate.m */,
-				1635D65E17B2975C001BDF4B /* MainStoryboard.storyboard */,
 				1635D66117B2975C001BDF4B /* SongBookViewController.h */,
 				1635D66217B2975C001BDF4B /* SongBookViewController.m */,
-				1635D64D17B2975C001BDF4B /* Supporting Files */,
 				1635D68117B29DC3001BDF4B /* SongDetailViewController.h */,
 				1635D68217B29DC3001BDF4B /* SongDetailViewController.m */,
 				16314A1417B3FDA0009EC3E6 /* SimpleTableCell.xib */,
@@ -221,6 +220,9 @@
 				160441B917BC4A9E00BC4D36 /* RowVideoViewController.m */,
 				160441BD17BC5B2800BC4D36 /* RowTablatureViewController.h */,
 				160441BE17BC5B2800BC4D36 /* RowTablatureViewController.m */,
+				1635D65E17B2975C001BDF4B /* MainStoryboard.storyboard */,
+				D2F0924C1A1E8CEB00F57061 /* Launch Screen.xib */,
+				1635D64D17B2975C001BDF4B /* Supporting Files */,
 			);
 			path = SongBook;
 			sourceTree = "<group>";
@@ -320,7 +322,7 @@
 			name = "Song BookTests";
 			productName = SongBookTests;
 			productReference = 1635D66917B2975C001BDF4B /* Song BookTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -329,6 +331,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SongBook;
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = QAMob.info;
 				TargetAttributes = {
@@ -365,6 +368,7 @@
 				163149FF17B2E8EC009EC3E6 /* about.jpg in Resources */,
 				16314A0217B304C7009EC3E6 /* icon large.png in Resources */,
 				16314A0317B304C7009EC3E6 /* iconf small.png in Resources */,
+				D2F0924D1A1E8CEB00F57061 /* Launch Screen.xib in Resources */,
 				16314A1517B3FDA0009EC3E6 /* SimpleTableCell.xib in Resources */,
 				16314A1C17B5AD04009EC3E6 /* songs.plist in Resources */,
 				1604403917BAD7CA00BC4D36 /* facebook.jpg in Resources */,
@@ -373,6 +377,7 @@
 				1604404A17BB498A00BC4D36 /* dkbluerowicon1.png in Resources */,
 				1604404E17BB500E00BC4D36 /* Default@2x.png in Resources */,
 				1604415617BC23D900BC4D36 /* ToDo.rtf in Resources */,
+				D2F0924B1A1E85E000F57061 /* Default-568h@2x.png in Resources */,
 				160441BC17BC58C000BC4D36 /* sunshine.png in Resources */,
 				160441C217BC608600BC4D36 /* close-dark.png in Resources */,
 				160441C317BC608600BC4D36 /* close-dark@2x.png in Resources */,
@@ -581,13 +586,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SongBook/SongBook-Prefix.pch";
 				INFOPLIST_FILE = "SongBookTests/Song BookTests-Info.plist";
 				PRODUCT_NAME = "Song BookTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -598,6 +603,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SongBook/SongBook-Prefix.pch";
@@ -605,7 +611,6 @@
 				PRODUCT_NAME = "Song BookTests";
 				PROVISIONING_PROFILE = "D720D982-3D47-41BC-9115-1EBA3542034C";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

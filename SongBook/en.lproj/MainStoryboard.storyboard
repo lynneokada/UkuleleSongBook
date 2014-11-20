@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="VYX-4P-NuA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="VYX-4P-NuA">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
         <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Song Book View Controller - Ukulele Song Book-->
+        <!--Ukulele Song Book-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="SongBookViewController" sceneMemberID="viewController">
@@ -72,7 +71,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Song Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGd-Nj-0QF">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Song Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGd-Nj-0QF">
                                 <rect key="frame" x="20" y="77" width="280" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="CGj-Ne-gyQ"/>
@@ -81,8 +80,8 @@
                                 <color key="textColor" red="0.95686274510000002" green="1" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tablature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVs-ym-Qsz">
-                                <rect key="frame" x="0.0" y="133" width="320" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tablature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVs-ym-Qsz">
+                                <rect key="frame" x="0.0" y="133" width="320" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.95686274510000002" green="1" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -226,15 +225,15 @@
                                 <rect key="frame" x="0.0" y="116" width="320" height="175"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="175" id="deX-AO-s7Y"/>
+                                    <constraint firstAttribute="height" constant="175" id="vEV-Mx-cjr"/>
                                 </constraints>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="w5q-SI-FNd" firstAttribute="trailing" secondItem="cAK-ET-phy" secondAttribute="trailing" type="default" id="EmJ-5G-IqC"/>
-                            <constraint firstItem="w5q-SI-FNd" firstAttribute="top" secondItem="cAK-ET-phy" secondAttribute="top" constant="116" id="WTr-Jn-WnY"/>
-                            <constraint firstItem="w5q-SI-FNd" firstAttribute="leading" secondItem="cAK-ET-phy" secondAttribute="leading" type="default" id="ZD1-fu-KSj"/>
+                            <constraint firstAttribute="trailing" secondItem="w5q-SI-FNd" secondAttribute="trailing" type="default" id="DgJ-UV-J8m"/>
+                            <constraint firstItem="w5q-SI-FNd" firstAttribute="top" secondItem="cAK-ET-phy" secondAttribute="top" constant="116" id="OLb-qA-nPf"/>
+                            <constraint firstItem="w5q-SI-FNd" firstAttribute="leading" secondItem="cAK-ET-phy" secondAttribute="leading" type="default" id="d8y-15-vGL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="76v-nV-rId"/>
